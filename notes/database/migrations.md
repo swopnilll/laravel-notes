@@ -75,9 +75,6 @@ php artisan migrate
 
 Sometimes, you need to add a new column to an existing table. You can generate a migration for this:
 
-bash
-
-Copy code
 
 `php artisan make:migration add_profile_photo_to_users_table --table=users`
 
